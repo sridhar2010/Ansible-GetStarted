@@ -7,7 +7,7 @@ yum install ansible
 
 # Configuring your Ansible Hosts
 
-# The file is located in /etc/ansible/hosts
+The file is located in /etc/ansible/hosts
 
 # Create Group Names and then add your servers
 [group name]
@@ -20,7 +20,7 @@ yy.yy.yy.yy:10022
 
 # Verify access using
 ansible -m ping [group name]
-# or
+or
 ansible -m ping xx.xx.xx.xx
 
 # You should see below output for successful connection
